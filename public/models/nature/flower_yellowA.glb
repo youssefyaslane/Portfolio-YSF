@@ -1,0 +1,260 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.4.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 117,
+      "normalized": false,
+      "byteOffset": 0,
+      "bufferView": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5120,
+      "count": 71,
+      "normalized": true,
+      "byteOffset": 0,
+      "bufferView": 1
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 90,
+      "normalized": false,
+      "byteOffset": 234,
+      "bufferView": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5120,
+      "count": 57,
+      "normalized": true,
+      "byteOffset": 0,
+      "bufferView": 2
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 71,
+      "max": [
+        27083,
+        -3048,
+        30819
+      ],
+      "min": [
+        -27083,
+        -32767,
+        -30819
+      ],
+      "normalized": true,
+      "byteOffset": 0,
+      "bufferView": 3
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 57,
+      "max": [
+        24018,
+        32767,
+        13957
+      ],
+      "min": [
+        -3900,
+        -4680,
+        -13957
+      ],
+      "normalized": true,
+      "byteOffset": 0,
+      "bufferView": 4
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 1,
+      "byteOffset": 0,
+      "byteLength": 414,
+      "target": 34963,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 0,
+          "byteLength": 87,
+          "mode": "TRIANGLES",
+          "byteStride": 2,
+          "count": 207
+        }
+      }
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 416,
+      "byteLength": 284,
+      "target": 34962,
+      "byteStride": 4,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 88,
+          "byteLength": 111,
+          "mode": "ATTRIBUTES",
+          "filter": "OCTAHEDRAL",
+          "byteStride": 4,
+          "count": 71
+        }
+      }
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 700,
+      "byteLength": 228,
+      "target": 34962,
+      "byteStride": 4,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 200,
+          "byteLength": 95,
+          "mode": "ATTRIBUTES",
+          "filter": "OCTAHEDRAL",
+          "byteStride": 4,
+          "count": 57
+        }
+      }
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 928,
+      "byteLength": 568,
+      "target": 34962,
+      "byteStride": 8,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 296,
+          "byteLength": 456,
+          "mode": "ATTRIBUTES",
+          "byteStride": 8,
+          "count": 71
+        }
+      }
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 1496,
+      "byteLength": 456,
+      "target": 34962,
+      "byteStride": 8,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 752,
+          "byteLength": 353,
+          "mode": "ATTRIBUTES",
+          "byteStride": 8,
+          "count": 57
+        }
+      }
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "flower_yellowA.glb.bin",
+      "byteLength": 1108
+    },
+    {
+      "byteLength": 1952,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "fallback": true
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "grass",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.172549024,
+          0.847058833,
+          0.721568644,
+          1
+        ]
+      }
+    },
+    {
+      "name": "colorYellow",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.996078432,
+          0.694117665,
+          0.2784314,
+          1
+        ]
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh flower_yellowA",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 4
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0
+        },
+        {
+          "attributes": {
+            "NORMAL": 3,
+            "POSITION": 5
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 2
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "flower_yellowA",
+      "translation": [
+        -0.024985739961266518,
+        0.046249997615814206,
+        0
+      ],
+      "scale": [
+        0.09624999761581421,
+        0.09624999761581421,
+        0.09624999761581421
+      ],
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_meshopt_compression",
+    "KHR_materials_unlit",
+    "KHR_mesh_quantization"
+  ],
+  "extensionsRequired": [
+    "EXT_meshopt_compression",
+    "KHR_mesh_quantization"
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.4.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 192,
+      "normalized": false,
+      "byteOffset": 0,
+      "bufferView": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5120,
+      "count": 114,
+      "normalized": true,
+      "byteOffset": 0,
+      "bufferView": 1
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 396,
+      "normalized": false,
+      "byteOffset": 384,
+      "bufferView": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5120,
+      "count": 210,
+      "normalized": true,
+      "byteOffset": 0,
+      "bufferView": 2
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 114,
+      "max": [
+        17118,
+        32767,
+        19766
+      ],
+      "min": [
+        -17118,
+        -6024,
+        -19766
+      ],
+      "normalized": true,
+      "byteOffset": 0,
+      "bufferView": 3
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 210,
+      "max": [
+        9421,
+        -6024,
+        9993
+      ],
+      "min": [
+        -11013,
+        -32767,
+        -9993
+      ],
+      "normalized": true,
+      "byteOffset": 0,
+      "bufferView": 4
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 1,
+      "byteOffset": 0,
+      "byteLength": 1176,
+      "target": 34963,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 0,
+          "byteLength": 216,
+          "mode": "TRIANGLES",
+          "byteStride": 2,
+          "count": 588
+        }
+      }
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 1176,
+      "byteLength": 456,
+      "target": 34962,
+      "byteStride": 4,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 216,
+          "byteLength": 146,
+          "mode": "ATTRIBUTES",
+          "filter": "OCTAHEDRAL",
+          "byteStride": 4,
+          "count": 114
+        }
+      }
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 1632,
+      "byteLength": 840,
+      "target": 34962,
+      "byteStride": 4,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 364,
+          "byteLength": 231,
+          "mode": "ATTRIBUTES",
+          "filter": "OCTAHEDRAL",
+          "byteStride": 4,
+          "count": 210
+        }
+      }
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 2472,
+      "byteLength": 912,
+      "target": 34962,
+      "byteStride": 8,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 596,
+          "byteLength": 722,
+          "mode": "ATTRIBUTES",
+          "byteStride": 8,
+          "count": 114
+        }
+      }
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 3384,
+      "byteLength": 1680,
+      "target": 34962,
+      "byteStride": 8,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 1320,
+          "byteLength": 1206,
+          "mode": "ATTRIBUTES",
+          "byteStride": 8,
+          "count": 210
+        }
+      }
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "tree_oak.glb.bin",
+      "byteLength": 2528
+    },
+    {
+      "byteLength": 5064,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "fallback": true
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "leafsGreen",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.160784319,
+          0.7882353,
+          0.670588255,
+          1
+        ]
+      }
+    },
+    {
+      "name": "woodBark",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8862745,
+          0.5137255,
+          0.34117648,
+          1
+        ]
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh tree_oak",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 4
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0
+        },
+        {
+          "attributes": {
+            "NORMAL": 3,
+            "POSITION": 5
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 2
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "tree_oak",
+      "translation": [
+        -5.960464477539063e-8,
+        0.5631199598312377,
+        0
+      ],
+      "scale": [
+        0.6131199598312378,
+        0.6131199598312378,
+        0.6131199598312378
+      ],
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_meshopt_compression",
+    "KHR_materials_unlit",
+    "KHR_mesh_quantization"
+  ],
+  "extensionsRequired": [
+    "EXT_meshopt_compression",
+    "KHR_mesh_quantization"
+  ]
+}

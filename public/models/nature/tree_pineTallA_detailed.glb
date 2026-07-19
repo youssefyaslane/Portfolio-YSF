@@ -1,0 +1,260 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.4.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 198,
+      "normalized": false,
+      "byteOffset": 0,
+      "bufferView": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5120,
+      "count": 108,
+      "normalized": true,
+      "byteOffset": 0,
+      "bufferView": 1
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 204,
+      "normalized": false,
+      "byteOffset": 396,
+      "bufferView": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5120,
+      "count": 116,
+      "normalized": true,
+      "byteOffset": 0,
+      "bufferView": 2
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 108,
+      "max": [
+        2380,
+        -5836,
+        4212
+      ],
+      "min": [
+        -5232,
+        -32767,
+        -4268
+      ],
+      "normalized": true,
+      "byteOffset": 0,
+      "bufferView": 3
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 116,
+      "max": [
+        8273,
+        32767,
+        8397
+      ],
+      "min": [
+        -8273,
+        -5836,
+        -8397
+      ],
+      "normalized": true,
+      "byteOffset": 0,
+      "bufferView": 4
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 1,
+      "byteOffset": 0,
+      "byteLength": 804,
+      "target": 34963,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 0,
+          "byteLength": 153,
+          "mode": "TRIANGLES",
+          "byteStride": 2,
+          "count": 402
+        }
+      }
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 804,
+      "byteLength": 432,
+      "target": 34962,
+      "byteStride": 4,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 156,
+          "byteLength": 133,
+          "mode": "ATTRIBUTES",
+          "filter": "OCTAHEDRAL",
+          "byteStride": 4,
+          "count": 108
+        }
+      }
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 1236,
+      "byteLength": 464,
+      "target": 34962,
+      "byteStride": 4,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 292,
+          "byteLength": 155,
+          "mode": "ATTRIBUTES",
+          "filter": "OCTAHEDRAL",
+          "byteStride": 4,
+          "count": 116
+        }
+      }
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 1700,
+      "byteLength": 864,
+      "target": 34962,
+      "byteStride": 8,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 448,
+          "byteLength": 636,
+          "mode": "ATTRIBUTES",
+          "byteStride": 8,
+          "count": 108
+        }
+      }
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 2564,
+      "byteLength": 928,
+      "target": 34962,
+      "byteStride": 8,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 1084,
+          "byteLength": 686,
+          "mode": "ATTRIBUTES",
+          "byteStride": 8,
+          "count": 116
+        }
+      }
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "tree_pineTallA_detailed.glb.bin",
+      "byteLength": 1772
+    },
+    {
+      "byteLength": 3492,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "fallback": true
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "woodBarkDark",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.4627451,
+          0.368627459,
+          1
+        ]
+      }
+    },
+    {
+      "name": "leafsDark",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.168627456,
+          0.6509804,
+          0.6666667,
+          1
+        ]
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh tree_pineTallA_detailed",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 4
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0
+        },
+        {
+          "attributes": {
+            "NORMAL": 3,
+            "POSITION": 5
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 2
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "tree_pineTallA_detailed",
+      "translation": [
+        0.013957031071186066,
+        0.7148029923439025,
+        0.002061501145362854
+      ],
+      "scale": [
+        0.7648029923439026,
+        0.7648029923439026,
+        0.7648029923439026
+      ],
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_meshopt_compression",
+    "KHR_materials_unlit",
+    "KHR_mesh_quantization"
+  ],
+  "extensionsRequired": [
+    "EXT_meshopt_compression",
+    "KHR_mesh_quantization"
+  ]
+}

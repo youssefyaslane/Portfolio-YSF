@@ -1,0 +1,222 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.4.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 4764,
+      "normalized": false,
+      "byteOffset": 0,
+      "bufferView": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5120,
+      "count": 2259,
+      "normalized": true,
+      "byteOffset": 0,
+      "bufferView": 1
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 2259,
+      "max": [
+        9949,
+        32767,
+        9949
+      ],
+      "min": [
+        -9949,
+        -32767,
+        -9949
+      ],
+      "normalized": true,
+      "byteOffset": 0,
+      "bufferView": 2
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5123,
+      "count": 2259,
+      "normalized": true,
+      "byteOffset": 0,
+      "bufferView": 3
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 1,
+      "byteOffset": 0,
+      "byteLength": 9528,
+      "target": 34963,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 0,
+          "byteLength": 1637,
+          "mode": "TRIANGLES",
+          "byteStride": 2,
+          "count": 4764
+        }
+      }
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 9528,
+      "byteLength": 9036,
+      "target": 34962,
+      "byteStride": 4,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 1640,
+          "byteLength": 2534,
+          "mode": "ATTRIBUTES",
+          "filter": "OCTAHEDRAL",
+          "byteStride": 4,
+          "count": 2259
+        }
+      }
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 18564,
+      "byteLength": 18072,
+      "target": 34962,
+      "byteStride": 8,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 4176,
+          "byteLength": 9600,
+          "mode": "ATTRIBUTES",
+          "byteStride": 8,
+          "count": 2259
+        }
+      }
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 36636,
+      "byteLength": 9036,
+      "target": 34962,
+      "byteStride": 4,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 13776,
+          "byteLength": 3503,
+          "mode": "ATTRIBUTES",
+          "byteStride": 4,
+          "count": 2259
+        }
+      }
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "sampler": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "colormap",
+      "mimeType": "image/png",
+      "uri": "Textures/colormap.png"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "building-skyscraper-b.glb.bin",
+      "byteLength": 17280
+    },
+    {
+      "byteLength": 45672,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "fallback": true
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "colormap",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 0,
+          "extensions": {
+            "KHR_texture_transform": {
+              "texCoord": 0
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "building-skyscraper-b",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "building-skyscraper-b",
+      "translation": [
+        -7.152557373046875e-7,
+        2.240000009536743,
+        2.9802322387695312e-8
+      ],
+      "scale": [
+        2.240000009536743,
+        2.240000009536743,
+        2.240000009536743
+      ],
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "name": "building-skyscraper-b",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_meshopt_compression",
+    "KHR_mesh_quantization",
+    "KHR_texture_transform"
+  ],
+  "extensionsRequired": [
+    "EXT_meshopt_compression",
+    "KHR_mesh_quantization"
+  ]
+}

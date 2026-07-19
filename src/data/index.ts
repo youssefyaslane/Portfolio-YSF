@@ -1,0 +1,7 @@
+export * from './types'
+export * from './profile'
+export * from './experiences'
+export * from './projects'
+export * from './skills'
+export * from './education'
+export * from './zones'

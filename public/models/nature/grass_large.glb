@@ -1,0 +1,171 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.4.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 672,
+      "normalized": false,
+      "byteOffset": 0,
+      "bufferView": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5120,
+      "count": 448,
+      "normalized": true,
+      "byteOffset": 0,
+      "bufferView": 1
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 448,
+      "max": [
+        32767,
+        20350,
+        32679
+      ],
+      "min": [
+        -32767,
+        -20350,
+        -32679
+      ],
+      "normalized": true,
+      "byteOffset": 0,
+      "bufferView": 2
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 1,
+      "byteOffset": 0,
+      "byteLength": 1344,
+      "target": 34963,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 0,
+          "byteLength": 241,
+          "mode": "TRIANGLES",
+          "byteStride": 2,
+          "count": 672
+        }
+      }
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 1344,
+      "byteLength": 1792,
+      "target": 34962,
+      "byteStride": 4,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 244,
+          "byteLength": 502,
+          "mode": "ATTRIBUTES",
+          "filter": "OCTAHEDRAL",
+          "byteStride": 4,
+          "count": 448
+        }
+      }
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 3136,
+      "byteLength": 3584,
+      "target": 34962,
+      "byteStride": 8,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 748,
+          "byteLength": 2636,
+          "mode": "ATTRIBUTES",
+          "byteStride": 8,
+          "count": 448
+        }
+      }
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "grass_large.glb.bin",
+      "byteLength": 3384
+    },
+    {
+      "byteLength": 6720,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "fallback": true
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "grass",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.172549024,
+          0.847058833,
+          0.721568644,
+          1
+        ]
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh grass_large",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 2
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "grass_large",
+      "translation": [
+        0.005357146263122559,
+        0.07700000405311584,
+        -0.008150994777679443
+      ],
+      "scale": [
+        0.20449891686439514,
+        0.20449891686439514,
+        0.20449891686439514
+      ],
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_meshopt_compression",
+    "KHR_materials_unlit",
+    "KHR_mesh_quantization"
+  ],
+  "extensionsRequired": [
+    "EXT_meshopt_compression",
+    "KHR_mesh_quantization"
+  ]
+}
